@@ -26,13 +26,6 @@ enum GameState {
 
 GameState currentState = DISPLAY_PHASE;
 
-// Function declarations
-void shuffleArray(int *array, int size);
-void printArray();
-void displayLevelLEDs(int currentLevel);
-bool playerWonLevel();
-void resetGame();
-
 void setup() {
   Serial.begin(9600);
   delay(500);
